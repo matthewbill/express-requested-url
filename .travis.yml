@@ -8,6 +8,12 @@ branches:
   only:
   - master
 
+addons:
+  sonarcloud:
+    organization: "matthewbill-github"
+    token:
+      secure: SONAR_TOKEN
+
 before_install:
 # Setup
 - sudo apt-get update
