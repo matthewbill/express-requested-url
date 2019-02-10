@@ -23,6 +23,7 @@ script:
 - npm audit
 - npm run lint
 - npm test
+- sonar-scanner
 
 before_deploy:
 # Git Configuration
